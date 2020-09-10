@@ -38,7 +38,7 @@ PRODUCT_RESTRICT_VENDOR_FILES := owner
 PRODUCT_PACKAGES += com.android.vndk.current.on_vendor
 
 PRODUCT_MANUFACTURER := Google
-PRODUCT_BRAND := Android
+PRODUCT_BRAND := google
 PRODUCT_NAME := aosp_taimen
 PRODUCT_DEVICE := taimen
-PRODUCT_MODEL := AOSP on taimen
+PRODUCT_MODEL := Pixel 2 XL
