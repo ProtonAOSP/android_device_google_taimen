@@ -42,3 +42,9 @@ PRODUCT_BRAND := google
 PRODUCT_NAME := aosp_taimen
 PRODUCT_DEVICE := taimen
 PRODUCT_MODEL := Pixel 2 XL
+
+# Match stock product info
+PRODUCT_OVERRIDE_INFO := true
+PRODUCT_OVERRIDE_NAME := taimen
+PRODUCT_OVERRIDE_FINGERPRINT := google/taimen/taimen:11/RP1A.201005.004/6782484:user/release-keys
+PRODUCT_OVERRIDE_DESC := taimen-user 11 RP1A.201005.004 6782484 release-keys
