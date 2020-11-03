@@ -14,11 +14,8 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_taimen.mk \
-    $(LOCAL_DIR)/aosp_taimen_hwasan.mk \
-    $(LOCAL_DIR)/taimen.mk \
+# Inherit AOSP product configuration
+$(call inherit-product, device/google/taimen/aosp_taimen.mk)
 
-COMMON_LUNCH_CHOICES := \
-    aosp_taimen-userdebug \
-    taimen-userdebug \
+# Remove AOSP prefix from product name
+PRODUCT_NAME := taimen
