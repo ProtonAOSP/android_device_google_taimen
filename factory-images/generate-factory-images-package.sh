@@ -15,11 +15,11 @@
 # limitations under the License.
 
 source ../../../common/clear-factory-images-variables.sh
-BUILD=4169385
+BUILD=eng.$USER
 DEVICE=taimen
 PRODUCT=taimen
-VERSION=opd1.170711.001
-SRCPREFIX=signed-
-BOOTLOADER=TMZ09x
-RADIO=g8998-00033-1707051711
+VERSION=rq1c.210205.006
+SRCPREFIX=../../../../out/target/product/taimen/obj/PACKAGING/target_files_intermediates/
+BOOTLOADER=TMZ30m
+RADIO=g8998-00034-2006052136
 source ../../../common/generate-factory-images-common.sh
