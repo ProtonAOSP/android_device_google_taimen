@@ -15,7 +15,7 @@
 # limitations under the License.
 
 source ../../../common/clear-factory-images-variables.sh
-BUILD=eng.$USER
+BUILD=eng.android-build
 DEVICE=taimen
 PRODUCT=taimen
 VERSION=rq1c.210205.006
